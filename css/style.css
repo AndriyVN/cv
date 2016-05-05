@@ -33,9 +33,23 @@ main {
 }
 .music{
     float: left;
-    width: 33%;
+    width: 25%;
     text-align: center;
     font-family: "Dancing Script";
+    overflow: hidden;
+}
+.article {
+    width: 50%;
+    overflow: hidden;
+    font-family: "Dancing Script";
+}
+.article img{
+    height: 50%;
+    width: 50%;
+}
+.calendar {
+    width: 25%;
+    overflow: hidden;
 }
 .footer {
     display: inline-block;
