@@ -1,67 +1,53 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.header {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
+.header{
+    max-width: 100%;
     text-align: center;
-}
-.header h1{
     font-family: "Dancing Script";
-    margin-bottom: 250px;
+    font-size: 20px;
     color: #f2eeb3;
-    top: 25%;
-    left: 30%;
-    position: absolute;
 }
-.nav {
+h1{
+    position: absolute;
+    bottom: 750px;
+}
+.header #bg {
+    width: 100%;
+}
+.nav{
+    background-color: yellow;
     display: inline-block;
     width: 100%;
     height: 75px;
-    background-color: #bdaf80;
-    font-family: "Indie Flower";
 }
-.nav li {
-    display: inline;
+.btn {
+    width: 30%;
 }
 main {
-    width: 100%
+    width: 100%;
     height: 100%;
-    inline-block;
+    display: inline-block;
+    background-color: #224466;
 }
 .music{
+    background-color: red;
     float: left;
     width: 25%;
-    text-align: center;
-    font-family: "Dancing Script";
+    height: 100%;
     overflow: hidden;
 }
-.article {
+.article{
+    background-color: green;
     width: 50%;
     overflow: hidden;
-    font-family: "Dancing Script";
 }
-.article img{
-    height: 50%;
-    width: 50%;
+.calendar{
+    background-color: blue;
+    float: right;
 }
-.calendar {
-    width: 25%;
-    overflow: hidden;
-}
-.footer {
-    display: inline-block;
-    width: 100%;
-    height: 140px;
-    background-color: #260126;
-    font-family: "Dancing Script";
-    color: #f2eeb3
-}
-.logo{
-    width: 75px;
-    height: 75px;
-    border: 1px solid;
-    border-radius: 50%;
+.footer{
+    background-color: black;
+    
 }
