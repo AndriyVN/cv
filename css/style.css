@@ -4,19 +4,19 @@
 }
 header {
     background-image: url('/images/fon.jpg');
+    background-size: cover;
     display: block;
     text-align: center;
     font-family: "Dancing Script";
     font-size: 30px;
     color: #f2eeb3;
-    background-size: cover;
 }
 header h1 {
     height: 808px;
     text-align: center;
     padding-top: 120px;
 }
-.nav {
+nav {
     background-color: #bfaf80;
     display: block;
     width: 100%;
@@ -24,7 +24,7 @@ header h1 {
     max-width: 100%;
     min-width: 50%;
 }
-.nav li{
+nav li{
     font-family: "Indie Flower";
     font-size: 30px;
     font-weight: bold;
