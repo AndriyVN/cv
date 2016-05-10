@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url('../images/fon.jpg');
+    background-size: cover;
+    display: block;
+    text-align: center;
+    font-family: "Dancing Script";
+    font-size: 30px;
+    color: #f2eeb3;
+}
+header h1 {
+    height: 808px;
+    text-align: center;
+    padding-top: 120px;
+}
+nav {
+    background-color: #bfaf80;
+    display: block;
+    width: 100%;
+    height: 55px;
+    max-width: 100%;
+    min-width: 50%;
+}
+nav li{
+    font-family: "Indie Flower";
+    font-size: 30px;
+    font-weight: bold;
+    display: inline;
+    margin-left: 22%;
+}
+.btn {
+    text-decoration: none;
+    color: #59323c;
+}
+main {
+    background-image: url('../images/fon5.jpg');
+    display: block;
+    width: 100%;
+    height: 800px;
+    display: inline-block;
+}
+article {
+}
+footer {
+    background-color: #260126;
+    width: 100%;
+    color: #f2eeb3;
+    text-align: center;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+}
