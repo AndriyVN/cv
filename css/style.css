@@ -64,23 +64,25 @@ article{
     color: #ffec15;
 }
 article img {
-    border: 1px solid;
+    border: 1px;
     border-radius: 100%;
     border-color: #260126;
-    width: 350px;
-    height: 350px;
+    width: 335px;
+    height: 430px;
     margin-right: 20px;
     margin-top: 10px;
     display: inline-block;
 }
 article h2 {
     overflow: hidden;
-    font-family: "Niconne", cursive;
+    font-family: "Niconne";
     font-size: 45px;
+    padding-top: 45px;
 }
 article p{
     overflow: hidden;
     font-family: "Niconne";
+    font-size: 30px;
 }
 footer{
     background-color: #260126;
