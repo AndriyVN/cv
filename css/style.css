@@ -47,6 +47,7 @@ aside {
     width: 40%;
     height: 800px;
     overflow: hidden;
+    text-align: center;
 }
 h4 {
     text-align: center;
@@ -61,14 +62,13 @@ article{
     overflow: hidden;
     text-align: center;
     color: #ffec15;
-    text-align: center;
 }
 article img {
     border: 1px solid;
     border-radius: 100%;
     border-color: #260126;
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     margin-right: 20px;
     margin-top: 10px;
     display: inline-block;
